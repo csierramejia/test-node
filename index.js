@@ -1,4 +1,3 @@
-
-const sumar = ( a, b ) => a + b;
-
-console.log( sumar( 2, 6 ) );
+module.exports = (a, b) => {
+  return a + b;
+}
